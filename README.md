@@ -15,16 +15,34 @@ News Application: a simple news search app. Search by news outlet, topic, etc, o
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe.
 
-- [wireframes]()
-- [react architecture]()
-
+- [wireframes](https://i.ibb.co/DknZJkZ/React-Project-Components.jpg)
+- [react architecture](https://i.ibb.co/DknZJkZ/React-Project-Components.jpg)
 
 
 Define the the React components and the architectural design of your app.
 
 ### MVP/PostMVP - 5min
 
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
+MVP:
+Bronze:
+Most recent news articles on topic - Home page
+populate with pre-determined params
+click on news article - routes to that article page
+Article Page (Separate component)
+contains image
+blurb of article
+button to read full article
+No search for MVP!!!
+
+Post MVP:
+
+Silver:
+Implement search
+Filter stories
+
+Gold:
+Related stories
+saved articles 
 
 #### MVP EXAMPLE
 - Find and use external api 
