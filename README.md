@@ -84,7 +84,8 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Title/Author | H | 3hrs| tk hrs | tk hrs |
 | Description | H | 3hrs| tk hrs | tk hrs |
 | Working with API | H | 6hrs| tk hrs | tk hrs |
-| Total | H | 30hrs| 4.5 hrs | 4.5 hrs |
+| CSS | H | 10hrs| tk hrs | tk hrs |
+| Total | H | 40hrs| 4.5 hrs | 4.5 hrs |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and their role in the project such as Axios, ReactStrap, D3, etc. 
