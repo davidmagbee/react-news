@@ -3,12 +3,11 @@
 
 ## Project Description
 
-News Application: a simple news search app. Search by news outlet, topic, etc, or just choose headlines to be displayed. Greater functionality down the road that allows for more specific search parameters and display options: Date range, specified outlet selectors, and more.
+Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
 
 ## Project Links
 
-- [github repo](https://github.com/macuser413/react-news)
-- [project api](https://newsapi.org/)
+- [github repo]()
 - [deployment]()
 
 ## Wireframes
