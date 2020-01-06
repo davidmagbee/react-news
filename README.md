@@ -76,16 +76,17 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Project Planning | H | 4hrs| 4.5 hrs | 4.5 hrs |
+| Pseudocode | H | 1hrs| tk hrs | tk hrs |
 | Header | H | 1hrs| tk hrs | tk hrs |
 | Footer | H | 1hrs| tk hrs | tk hrs |
 | Home | H | 3hrs| tk hrs | tk hrs |
-| ArticlePage | H | 6hrs| tk hrs | tk hrs |
+| ArticlePage | H | 7hrs| tk hrs | tk hrs |
 | ArticleImage | H | 3hrs| tk hrs | tk hrs |
 | Title/Author | H | 3hrs| tk hrs | tk hrs |
 | Description | H | 3hrs| tk hrs | tk hrs |
-| Working with API | H | 6hrs| tk hrs | tk hrs |
+| Working with API | H | 6hrs| .5 hrs | .5 hrs |
 | CSS | H | 10hrs| tk hrs | tk hrs |
-| Total | H | 40hrs| 4.5 hrs | 4.5 hrs |
+| Total | H | 42hrs| 4.5 hrs | 4.5 hrs |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and their role in the project such as Axios, ReactStrap, D3, etc. 
