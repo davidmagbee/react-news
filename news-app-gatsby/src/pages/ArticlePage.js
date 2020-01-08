@@ -1,20 +1,15 @@
-import React, { Component } from 'react'
+import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
+import NewsApp from "../components/ArticleComponents/NewsApp"
 
-export class ArticlePage extends Component {
-  render() {
-    return (
-      <div>
-          <Layout>
-              
-          </Layout>
-      </div>
-    )
-  }
-}
+const ArticlePage = () => (
+  <Layout>
+    <NewsApp />
+  </Layout>
+)
 
 export default ArticlePage
 
-export default ArticlePage
+
