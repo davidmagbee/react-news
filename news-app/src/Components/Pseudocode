@@ -1,0 +1,27 @@
+// Pseudocode - React - Project 2 - News App
+
+Part 1
+create-react-App / Next / Gatsby
+delete pre-loaded create-react-app files
+mkdir Components
+touch Component files - including new App.js and App.css
+- App
+- Header
+- Footer
+- Home (pre-determined results page, use can select a story)
+- ArticlePage (selected article)
+- ArticleImage (renders the associated image for the article)
+- Contributor (renders the article source & author)
+- ArticleDescription (renders the article description - not content)
+//// Consider Test-Driven Development?
+
+Part 2 - complete
+fetch data from API (newsapi.org)
+render data on app page (console.log(data) for testing only)
+
+Part 3 -- dependent on use of React Native / Next / Gatsby
+Link components and routes to App.js
+Render specific data on each relevant component page
+
+Part 4
+Site design (CSS)

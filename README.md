@@ -23,10 +23,14 @@ Define the the React components and the architectural design of your app.
 
 ### MVP/PostMVP - 5min
 
-MVP:
-Bronze:
-Most recent news articles on topic - Home page
-populate with pre-determined params
+#### MVP:
+##### Bronze:
+Home Page - populated with pre-determined results
+Article Page - user selected article from Home Page
+- contains article image, contributor, description, link to full article
+
+Breakdown:
+Home Page - Live top and breaking news headlines
 click on news article - routes to that article page
 Article Page (Separate component)
 contains image
@@ -34,13 +38,12 @@ blurb of article
 button to read full article
 No search for MVP!!!
 
-Post MVP:
-
-Silver:
+#### Post MVP:
+##### Silver:
 Implement search
 Filter stories
 
-Gold:
+##### Gold:
 Related stories
 saved articles 
 
@@ -76,7 +79,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Project Planning | H | 4hrs| 4.5 hrs | 4.5 hrs |
-| Pseudocode | H | 1hrs| tk hrs | tk hrs |
+| Pseudocode | H | 1hrs| .5 hrs | .5 hrs |
 | Header | H | 1hrs| tk hrs | tk hrs |
 | Footer | H | 1hrs| tk hrs | tk hrs |
 | Home | H | 3hrs| tk hrs | tk hrs |
@@ -86,7 +89,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Description | H | 3hrs| tk hrs | tk hrs |
 | Working with API | H | 6hrs| .5 hrs | .5 hrs |
 | CSS | H | 10hrs| tk hrs | tk hrs |
-| Total | H | 42hrs| 4.5 hrs | 4.5 hrs |
+| Total | H | 42hrs| 5 hrs | 5 hrs |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and their role in the project such as Axios, ReactStrap, D3, etc. 
