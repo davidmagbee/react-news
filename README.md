@@ -8,7 +8,7 @@ News Application: a simple news search app. Search by news outlet, topic, etc, o
 ## Project Links
 
 - [github repo](https://github.com/macuser413/react-news)
-- [project api](https://newsapi.org/)
+- [project powered by the NewsAPI.org api](https://newsapi.org/)
 - [deployment]()
 
 ## Wireframes

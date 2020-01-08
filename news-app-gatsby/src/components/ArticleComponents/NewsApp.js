@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Article from './Article';
 
 
 const url = 'https://newsapi.org/v2/top-headlines?' + 'country=us&' + 'apiKey=6ad3a5693c1948fc80c91b0ccaf18ea9';
@@ -10,7 +11,7 @@ class NewsApp extends Component {
         super(props);
     
         this.state = {
-             headlines: []
+            headlines: []
         }
     }
     
@@ -22,15 +23,19 @@ class NewsApp extends Component {
         fetch(req)
         .then(res => res.json())
         .then(res => {
-            console.log(res.articles);
+            this.setState({
+                headlines: res
+            })
         })
     }
 
     render() {
+        // console.log(this.state.headlines);
+        
         return (
             <div className="container">
                 <div>
-                    
+                    <Article news={this.state.headlines} />
                 </div>
             </div>
         )

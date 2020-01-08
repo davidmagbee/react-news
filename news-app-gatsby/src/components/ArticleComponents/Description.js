@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class Contributor extends Component {
+export class Description extends Component {
     render() {
         return (
             <div>
@@ -10,4 +10,4 @@ export class Contributor extends Component {
     }
 }
 
-export default Contributor
+export default Description
