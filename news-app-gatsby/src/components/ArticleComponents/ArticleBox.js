@@ -1,26 +1,37 @@
 import React, { Component } from "react"
+import Description from "./Description"
+import Contributor from "./Contributor"
+import ArticleImage from "./ArticleImage"
+import ReadMore from "./ReadMore"
 
-export class ArticleBox extends Component {
+class ArticleBox extends Component {
   render() {
     return (
       <div className="article-box">
         <div className="article-image">
-          <img src={this.props.article.urlToImage}></img>
+          <ArticleImage artimg={this.props.article.urlToImage} />
         </div>
         <div className="title">{this.props.article.title}</div>
-        <div className="author">{this.props.article.author}</div>
+        <div className="author">
+          <Contributor cont={this.props.article.author} />
+        </div>
         {/* <div className="news-source">
                     {this.props.article.source.name}
                 </div> */}
         <div className="article-description">
-          {this.props.article.description}
+          <Description desc={this.props.article.description} />
         </div>
-        {/* This will need to be a button below
-                <div>
-                    {this.props.article.url}
-                </div> */}
+
+        <ReadMore readmore={this.props.article.url}/>
+
         <style jsx>{`
           @import url("https://fonts.googleapis.com/css?family=News+Cycle&display=swap");
+          .header {
+            background-color: #4f91a1;
+            font-family: "News Cycle", sans-serif;
+            color: white;
+            padding: 10px;
+          }
           .article-box {
             font-family: "News Cycle", sans-serif;
             height: 25em;
@@ -30,7 +41,7 @@ export class ArticleBox extends Component {
             margin: 10px;
             padding: 5px;
             display: grid;
-            grid-template-rows: 3fr 1fr 1fr 1fr;
+            grid-template-rows: 4fr 1fr 1fr 1fr 1fr;
           }
           img {
             width: 100%;

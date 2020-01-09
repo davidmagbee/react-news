@@ -14,8 +14,6 @@ export class Article extends Component {
         return <ArticleBox article={article} />
       })
     }
-    // console.log(this.props.news.articles);
-    // console.log(this.props);
 
     return (
         <div className="container">

@@ -1,8 +1,13 @@
 import React, { Component } from "react"
 
-export class Description extends Component {
+class Description extends Component {
   render() {
-    return <div></div>
+    
+    return (
+    <div>
+        {this.props.desc}
+    </div>
+    )
   }
 }
 

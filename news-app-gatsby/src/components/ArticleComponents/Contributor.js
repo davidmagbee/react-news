@@ -2,7 +2,11 @@ import React, { Component } from "react"
 
 export class Contributor extends Component {
   render() {
-    return <div></div>
+    return (
+    <div>
+        {this.props.cont}
+    </div>
+    )
   }
 }
 
