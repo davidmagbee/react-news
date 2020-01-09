@@ -1,3 +1,33 @@
+body {
+    font-family: 'News Cycle', sans-serif;
+}
+
 .header {
-    background-color: black;
+    background-color: azure;
+    font-family: 'News Cycle', sans-serif;
+}
+
+.article-box {
+    border: solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.article-image {
+    max-width: 500px;
+    object-fit: contain;
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+.author {
+
 }

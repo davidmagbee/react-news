@@ -9,10 +9,14 @@ export class Article extends Component {
     }
     
     render() {
-        let articles = this.props.news.articles.map(article => {
-            return <ArticleBox article={article} />
-        })
-        console.log(this.props.news.articles);
+        let articles = []
+        if (this.props.news.articles) {
+            articles = this.props.news.articles.map(article => {
+                return <ArticleBox article={article} />
+            }) 
+        }
+        // console.log(this.props.news.articles);       
+        // console.log(this.props);
         
         return (
             <div>
