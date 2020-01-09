@@ -24,7 +24,7 @@ class ArticleBox extends Component {
 
         <ReadMore readmore={this.props.article.url}/>
 
-        <style jsx>{`
+        <style>{`
           @import url("https://fonts.googleapis.com/css?family=News+Cycle&display=swap");
           .header {
             background-color: #4f91a1;

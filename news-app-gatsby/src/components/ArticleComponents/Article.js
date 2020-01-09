@@ -18,7 +18,7 @@ export class Article extends Component {
     return (
         <div className="container">
             {articles}
-            <style jsx>{`
+            <style>{`
                 .container {
                     display: flex;
                     flex-wrap: wrap;

@@ -21,15 +21,10 @@ img {
 }
 
 .article-image {
-    background-image: ;
     max-width: 500px;
     object-fit: contain;
 }
 
 .title {
     text-transform: uppercase;
-}
-
-.author {
-
 }
