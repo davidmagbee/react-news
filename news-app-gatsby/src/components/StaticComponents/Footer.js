@@ -5,7 +5,7 @@ import React from "react"
 const Footer = () => (
     <footer>
         <div className="contact">
-        <a href="mailto:david.magbee@me.com? subject=Let's Connect">Email</a>
+        <a href="mailto:david.magbee@me.com?subject=Let's Connect">Email</a>
         <a href="https://www.linkedin.com/in/davidmagbee/">LinkedIn</a>
         <a href="https://github.com/macuser413/">GitHub</a>
         <a href="https://betterradio.airtime.pro/">Better Radio</a>
