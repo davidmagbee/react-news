@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/Layout"
 import NewsApp from "../components/ArticleComponents/NewsApp"
@@ -11,5 +10,3 @@ const ArticlePage = () => (
 )
 
 export default ArticlePage
-
-

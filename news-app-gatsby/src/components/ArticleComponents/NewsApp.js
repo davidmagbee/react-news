@@ -32,8 +32,6 @@ class NewsApp extends Component {
   }
 
   render() {
-    console.log(this.state.headlines)
-
     return (
       <div className="container">
         <div>

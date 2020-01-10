@@ -3,8 +3,7 @@ import React from "react"
 
 const Logo = () => (
     <>
-    <Link to="/"><h1 className="logo" onClick="/">Rise & Headline</h1></Link>
-    {/* <h1 className="logo">Rise & Headline</h1> */}
+    <Link to="/"><h1 className="logo">Rise & Headline</h1></Link>
     <style>{`
     .logo {
         color: white;

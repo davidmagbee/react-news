@@ -15,9 +15,6 @@ class ArticleBox extends Component {
         <div className="author">
           <Contributor cont={this.props.article.author} />
         </div>
-        {/* <div className="news-source">
-                    {this.props.article.source.name}
-                </div> */}
         <div className="article-desc">
           <Description desc={this.props.article.description} />
         </div>
