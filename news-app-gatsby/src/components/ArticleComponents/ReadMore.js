@@ -4,7 +4,7 @@ class ReadMore extends Component {
     render() {
         return (
             <div>
-                <button><a href={this.props.readmore}>Read Full Article</a></button>
+                <button><a href={this.props.more}>Read Full Article</a></button>
             </div>
         )
     }

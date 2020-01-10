@@ -3,13 +3,13 @@ import React from "react"
 
 const NavBar = () => (
   <nav>
-    <Link to="/">Home</Link>
-    <Link to="/About">About Page</Link>
+    <Link to="/" className="link">Home</Link>
+    <Link to="/About" className="link">About Page</Link>
     <style>{`
       @import url("https://fonts.googleapis.com/css?family=News+Cycle&display=swap");
       nav {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
       }
       .header {
         background-color: #4f91a1;
@@ -31,6 +31,10 @@ const NavBar = () => (
       img {
         width: 100%;
         height: 100%;
+      }
+      .link {
+        color: white;
+        text-decoration: none;
       }
     `}</style>
   </nav>

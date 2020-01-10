@@ -11,6 +11,9 @@ const AboutPage = () => (
       <h1>About the Developer</h1>
       <p>This guy...</p>
     </Layout>
+    <style>
+      
+    </style>
   </main>
 )
 

@@ -11,7 +11,7 @@ const Layout = props => (
     <Header />
     {props.children}
     <Footer />
-    <style jsx>{`
+    <style jsx global>{`
       @import url("https://fonts.googleapis.com/css?family=News+Cycle&display=swap");
       .article-box {
         font-family: "News Cycle", sans-serif;
@@ -19,6 +19,9 @@ const Layout = props => (
       img {
         width: 100%;
         height: 100%;
+      }
+      body {
+        margin: 0;
       }
     `}</style>
   </div>
