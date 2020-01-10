@@ -6,8 +6,6 @@ const url =
   "country=us&" +
   "apiKey=6ad3a5693c1948fc80c91b0ccaf18ea9"
 
-const req = new Request(url)
-
 class NewsApp extends Component {
   constructor(props) {
     super(props)
@@ -22,7 +20,7 @@ class NewsApp extends Component {
   }
 
   newHeadline = () => {
-    fetch(req)
+    fetch(url)
       .then(res => res.json())
       .then(res => {
         this.setState({
