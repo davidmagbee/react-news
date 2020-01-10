@@ -11,7 +11,9 @@ export class Article extends Component {
     let articles = []
     if (this.props.news.articles) {
       articles = this.props.news.articles.map(article => {
-        return <ArticleBox article={article} />
+        if (article.urlToImage != null) {
+          return <ArticleBox article={article} />
+        }
       })
     }
 

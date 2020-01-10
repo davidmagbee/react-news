@@ -4,17 +4,18 @@ import React from "react"
 const NavBar = () => (
   <nav>
     <Link to="/" className="link">Home</Link>
-    <Link to="/About" className="link">About Page</Link>
+    <Link to="/About" className="link about">About Page</Link>
     <style>{`
       @import url("https://fonts.googleapis.com/css?family=News+Cycle&display=swap");
       nav {
         display: flex;
         justify-content: space-evenly;
+        margin: 0;
       }
       .header {
         background-color: #4f91a1;
         font-family: "News Cycle", sans-serif;
-        color: white;
+        color: #fff;
         padding: 10px;
       }
       .article-box {
